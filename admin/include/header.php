@@ -1,23 +1,23 @@
-<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
+<div class="navbar navbar-fixed-top" >
+		<div class="navbar-inner" style="background-color: #3d00be">
 			<div class="container">
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-			  	<a class="brand" href="index.html">
+			  	<a class="brand" style="color: white" href="#">
 			  		CMS | Admin
 			  	</a>
 
 				<div class="nav-collapse collapse navbar-inverse-collapse">
 					<ul class="nav pull-right">
-						<li><a href="#">
+						<li><a href="#" style="color: white">
 							Admin
 						</a></li>
 						<li class="nav-user dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								<img src="images/user.png" class="nav-avatar" />
-								<b class="caret"></b>
+								<i class="fas fa-user-alt" >  </i> <b class="caret"></b>
+								
 							</a>
 							<ul class="dropdown-menu">
 								<li><a href="change-password.php">Change Password</a></li>
