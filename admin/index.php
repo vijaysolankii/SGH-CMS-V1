@@ -58,7 +58,7 @@ if (isset($_POST['submit'])) {
 					<ul class="nav pull-right">
 
 						<li><a href="http://localhost/cms/users/index.php" style="color: white" target="_blank">
-								Back to Portal
+								Back To CMS
 
 							</a></li>
 					</ul>
@@ -74,8 +74,8 @@ if (isset($_POST['submit'])) {
 			<div class="row">
 				<div class="module module-login span4 offset4">
 					<form class="form-vertical" method="post">
-						<div class="module-head">
-							<h3>Sign In</h3>
+						<div class="module-head" style="background-color: #3d00be"> 
+							<h3 style="color: #fff">Sign In</h3>
 						</div>
 						<span style="color:red;"><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg'] = ""); ?></span>
 						<div class="module-body">
@@ -93,7 +93,7 @@ if (isset($_POST['submit'])) {
 						<div class="module-foot">
 							<div class="control-group">
 								<div class="controls clearfix">
-									<button type="submit" class="btn btn-primary pull-right" name="submit">Login</button>
+									<button type="submit" style="background-color: #3d00be" class="btn btn-primary pull-right" name="submit">Login</button>
 
 								</div>
 							</div>
