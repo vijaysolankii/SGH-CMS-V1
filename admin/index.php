@@ -42,14 +42,14 @@ if (isset($_POST['submit'])) {
 
 <body>
 
-	<div class="navbar navbar-fixed-top" >
+	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner" style="background-color: #3d00be">
 			<div class="container">
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
 					<i class="icon-reorder shaded"></i>
 				</a>
 
-				<a class="brand" href="./index.php" style="color: white" >
+				<a class="brand" href="./index.php" style="color: white">
 					CMS | Admin
 				</a>
 
@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
 			<div class="row">
 				<div class="module module-login span4 offset4">
 					<form class="form-vertical" method="post">
-						<div class="module-head" style="background-color: #3d00be"> 
+						<div class="module-head" style="background-color: #3d00be">
 							<h3 style="color: #fff">Sign In</h3>
 						</div>
 						<span style="color:red;"><?php echo htmlentities($_SESSION['errmsg']); ?><?php echo htmlentities($_SESSION['errmsg'] = ""); ?></span>
@@ -106,14 +106,16 @@ if (isset($_POST['submit'])) {
 	<!--/.wrapper-->
 	<!-- Footer -->
 	<footer>
-			<div class="row">
-				<div class="col-lg-12">
-					<br/>
-				<center><p>Copyright &copy; | COMPLAINT MANAGEMENT SYSTEM <b><a href="http://www.ssipgujarat.in/sgh201920/" target="_blank">SGH2020</a></b></p></center>
-				</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<br />
+				<center>
+					<p>Copyright &copy; | COMPLAINT MANAGEMENT SYSTEM <b><a href="http://www.ssipgujarat.in/sgh201920/" target="_blank">SGH2020</a></b></p>
+				</center>
 			</div>
-			<!-- /.row -->
-		</footer>
+		</div>
+		<!-- /.row -->
+	</footer>
 	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
 	<script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
 	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
