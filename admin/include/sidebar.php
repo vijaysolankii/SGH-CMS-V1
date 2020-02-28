@@ -1,6 +1,16 @@
 <div class="span3">
 	<div class="sidebar">
 
+	<ul class="widget widget-menu unstyled">
+			<li><a href="user-logs.php"><i class="menu-icon icon-tasks"></i>User Login Log </a></li>
+
+			<li>
+				<a href="logout.php">
+					<i class="menu-icon icon-signout"></i>
+					Logout
+				</a>
+			</li>
+		</ul>
 
 		<ul class="widget widget-menu unstyled">
 			<li>
@@ -10,7 +20,8 @@
 					Manage Complaint
 				</a>
 				<ul id="togglePages" class="collapse unstyled">
-					<li>
+					
+				<li>
 						<!-- <a href="notprocess-complaint.php"> -->
 						<a href="#">
 							<i class="icon-tasks"></i>
@@ -50,7 +61,6 @@
 					</li>
 				</ul>
 			</li>
-
 			<li>
 				<!-- <a href="manage-users.php">
 					<i class="menu-icon icon-group"></i>
@@ -62,21 +72,21 @@
 				</a>
 			</li>
 		</ul>
-
+	
 
 		<ul class="widget widget-menu unstyled">
 			<!-- <li><a href="category.php"><i class="menu-icon icon-tasks"></i> Add Category </a></li>
 			<li><a href="subcategory.php"><i class="menu-icon icon-tasks"></i>Add Sub-Category </a></li>
 			<li><a href="state.php"><i class="menu-icon icon-paste"></i>Add State</a></li> -->
 
-			<li><a href="#"><i class="menu-icon icon-tasks"></i> Add Category </a></li>
+			<!-- <li><a href="#"><i class="menu-icon icon-tasks"></i> Add Category </a></li>
 			<li><a href="#"><i class="menu-icon icon-tasks"></i>Add Sub-Category </a></li>
-			<li><a href="#"><i class="menu-icon icon-paste"></i>Add State</a></li>
+			<li><a href="#"><i class="menu-icon icon-paste"></i>Add State</a></li> -->
 					
 		</ul>
 		<!--/.widget-nav-->
 
-		<ul class="widget widget-menu unstyled">
+		<!-- <ul class="widget widget-menu unstyled">
 			<li><a href="user-logs.php"><i class="menu-icon icon-tasks"></i>User Login Log </a></li>
 
 			<li>
@@ -85,7 +95,7 @@
 					Logout
 				</a>
 			</li>
-		</ul>
+		</ul> -->
 
 	</div>
 	<!--/.sidebar-->
