@@ -1,6 +1,0 @@
-team id zipfile
-    ppt
-    result
-    ss
-    docs
-    
